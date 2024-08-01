@@ -17,7 +17,7 @@ export default function About() {
           <div className="flex justify-center mb-4">
             <Image
               src="/image/icon.png"
-              alt="アイコン画像"
+              alt="アイコン"
               width={150}
               height={150}
               className="rounded-full"
@@ -70,36 +70,37 @@ export default function About() {
               <h2>SNS</h2>
             </div>
             <div className="space-y-2">
-              <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer">
+              <div>
                 <a href="https://x.com/ehor_N8">
-                  <span className="font-bold rounded-md underline">X（旧:Twitter）</span>
-                </a>
-              </div>
-              <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer">
-                <a href="https://instagram.com/ehor_N8">
-                  <span className="font-bold rounded-md underline">Instagram</span>
+                  <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer mt-4">
+                    <span className="font-bold rounded-md underline">X（旧:Twitter）</span>
+                  </div>
                 </a>
               </div>
             </div>
+            <a href="https://instagram.com/ehor_N8">
+              <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer mt-4">
+                <span className="font-bold rounded-md underline">Instagram</span>
+              </div>
+            </a>
             <div className="rounded-md py-2 text-xl font-bold mb-4 flex items-center">
               <span className="w-10 h-10 flex items-center justify-center">🔗</span>
               <h2>リンク</h2>
             </div>
-            <div className="space-y-2">
-              <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer">
-                <a href="https://nuller.jp">
-                  <span className="font-bold rounded-md underline">Nuller開発チーム</span>
-                </a>
+            <a href="https://nuller.jp" className="mt-10">
+              <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer mt-4">
+                <span className="font-bold rounded-md underline">Nuller開発チーム</span>
               </div>
-              <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer">
-                <a href="https://ehor.jp">
-                  <span className="font-bold rounded-md underline">えほさいと</span>
-                </a>
+            </a>
+            <a href="https://ehor.jp">
+              <div className="border px-4 py-4 rounded-lg hover:bg-slate-50 cursor-pointer mt-4">
+
+                <span className="font-bold rounded-md underline">えほさいと</span>
               </div>
-            </div>
+            </a>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 }
