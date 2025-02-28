@@ -24,7 +24,7 @@ export default function About() {
           </div>
           <div className="text-center mb-6 text-gray-500">
             <h1 className="text-2xl font-bold text-stone-800">えほ/Ehor.</h1>
-            <h3 className="text-sm">@ehor_n8</h3>
+            <p className="text-sm">@ehor_n8</p>
             <h2 className="text-base mt-2">
               {now_year > 2025 || (now_year === 2025 && now_month >= 4) ? (
                 now_year > 2026 || (now_year === 2026 && now_month >= 4) ? (
