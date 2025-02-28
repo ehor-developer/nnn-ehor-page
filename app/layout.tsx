@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Noto_Sans_JP } from 'next/font/google'
-import './globals.css';
+import './style.css';
 const notosans_jp = Noto_Sans_JP({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'えほの自己紹介サイト',

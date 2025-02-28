@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import schooling from '../data/schooling.json';
 import SocialIcon from '../components/social';
 
@@ -15,8 +14,8 @@ export default function About() {
     <>
       <div className="bg-white rounded-lg p-6 py-16 w-full m-auto max-w-4xl min-h-screen text-neutral-800 tracking-wide">
           <div className="flex justify-center mb-4">
-            <Image
-              src="/image/icon.png"
+            <img
+              src="/image/icon.webp"
               alt="アイコン"
               width={80}
               height={80}
